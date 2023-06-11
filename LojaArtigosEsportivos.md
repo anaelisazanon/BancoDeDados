@@ -25,7 +25,9 @@ https://www.quant-ux.com/#/share.html?h=a2aa10aTpZ4wmYruVKzsH5HoZTC3OFqDrJhAioaZ
 # 4. Requisitos do Sistema
 
 4.1 Requisitos Funcionais (RF) e Regras de negócio (RN)
+
 RF.001 - O sistema deve permitir cadastrar produto. (CRUD)
+
 RN.001 - O cadastro de produto deve ter os seguinte campos:
 ● Código produto (campo obrigatório, auto-incremental);
 ● Categoria (campo obrigatório);
@@ -47,6 +49,7 @@ RN.003 - No campo CPF, criar a rotina de validar CPF.
 ● Fórmula: pegar fórmula internet
 
 RF.003 - O sistema deve permitir cadastrar o funcionário.
+
 RN.004 - O cadastro do funcionário deve ter os seguinte campos:
 ● CPF do funcionário (campo obrigatório);
 ● Nome (campo obrigatório);
