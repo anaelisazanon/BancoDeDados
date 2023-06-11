@@ -69,10 +69,12 @@ RN.004 - O cadastro do funcionário deve ter os seguinte campos:
 ○ Máscara: data DD/MM/AAAA
 ● Status (ativo, férias, ausência);
 ● Observações.
+
 RN.005 - No campo CPF, criar a rotina de validar CPF.
 ● Fórmula: pegar fórmula internet
 
 RF.004 - O sistema deve permitir cadastro de categoria de produto.
+
 RN.006 - O cadastro de cadastro de categoria de produto deve ter os seguinte campos:
 
 ● Código (auto-incremental);
@@ -80,6 +82,7 @@ RN.006 - O cadastro de cadastro de categoria de produto deve ter os seguinte cam
 ● Descrição.
 
 RF.005 - O sistema deve permitir cadastro de venda.
+
 RN.007 - O cadastro de cadastro de venda deve ter os seguinte campos:
 ● Código da venda (auto-incremental);
 ● Data de venda (campo obrigatório);
@@ -93,17 +96,27 @@ RN.007 - O cadastro de cadastro de venda deve ter os seguinte campos:
 ● CPF do cliente (campo obrigatório);
 ● CPF do caixa (campo obrigatório);
 ● CPF do atendente (campo obrigatório);
-RN.008 - O sistema deverá validar se o funcionário está logado e se a
-categoria permite fazer vendas;
+
+RN.008 - O sistema deverá validar se o funcionário está logado e se a categoria permite fazer vendas;
+
 RN.009 - O sistema deve enviar um e-mail para o cliente com a nota fiscal da venda;
+
 RN.010 - O sistema deverá validar o cupom de desconto dentro da data de validade;
+
 RN.011 - O sistema deverá calcular o valor de desconto de acordo com o tempo de cadastro, criando um cupom de desconto;
+
 RN.012 - O valor total da venda deverá ser calculado somando o valor total dos produtos subtraídos pela porcentagem de desconto;
+
 RN.013 - O sistema deverá registrar o valor da venda no cadastro do atendente, para posterior cálculo de comissão;
+
 RF.006 - O sistema deve permitir criar avisos para os clientes sobre cupons de desconto
+
 RN.014 - O sistema de avisar o cliente que recebeu um cupom de desconto informando a data de validade do cupom;
+
 RN.015- O gerente poderá definir um valor_desconto e tempo_desconto nas configurações do sistemas;
+
 RF.007 - O sistema deve permitir cadastrar a configuração do sistema
+
 RN.016 - O cadastro da configuração de sistemas deve ter os seguintes campos:
 
 ● Valor do desconto (campo obrigatório);
@@ -114,21 +127,35 @@ RN.016 - O cadastro da configuração de sistemas deve ter os seguintes campos:
 RN.008 - O sistema deverá emitir um relatório de vendas em um período definido pelo usuário.
 
 4.2 Requisitos Não Funcionais (RNF)
+
 ● Usabilidade
+
 RNF.001 - O Sistema deve possuir uma interface gráfica intuitiva para o funcionário;
+
 RNF.002 - O sistema deve permitir a utilização de teclas de atalhos;
+
 ● Segurança
-RNF.002 - Gerar um log de todas as transações realizadas: usuário, transação e data
+
+RNF.002 - Gerar um log de todas as transações realizadas: usuário, transação e data.
+
 RNF.003 - Acesso a informações somente administrador do sistema e dentro do IP da loja.
+
 ● Portabilidade
+
 RNF.006 - O sistema deve ser compatível com a versão do Chrome (103) e Firefox (106.0.4).
-RNF.007 - O sistema deve ser compatível com a criptografia SSL de 64 bits na
-transmissão de dados via internet.
+
+RNF.007 - O sistema deve ser compatível com a criptografia SSL de 64 bits na transmissão de dados via internet.
+
 RNF.008 - O sistema deve suportar até 10 funcionários simultâneos.
+
 RNF.009 - O sistema deve persistir os dados no SGDB - MYSQL, que permita backup e restore os dados.
+
 RNF.010 - O tamanho dos discos de dados devem permitir escalabilidade do sistema a longo prazo;
+
 ● Desempenho
+
 RNF.011 - O sistema deverá emitir um relatório de vendas em 5 segundos;
+
 RNF.012 - O sistema deverá efetivar o cadastro em no máximo 2 segundos;
 
 
