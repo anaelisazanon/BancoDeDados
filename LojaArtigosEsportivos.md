@@ -20,8 +20,7 @@ detalhadas sobre eles;
 
 # 3. Telas
 Link Quant-UX para teste:
-https://www.quant-ux.com/#/share.html?h=a2aa10aTpZ4wmYruVKzsH5HoZTC3OFqDrJhAi
-oaZRO2xzLWuYrYyo8PcKwqu
+https://www.quant-ux.com/#/share.html?h=a2aa10aTpZ4wmYruVKzsH5HoZTC3OFqDrJhAioaZRO2xzLWuYrYyo8PcKwqu
 
 # 4. Requisitos do Sistema
 
